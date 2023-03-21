@@ -16,7 +16,7 @@
   min-height: 20vh;
   /*color: #ff0044;*/
   color: white;
-  background: rgba(31, 104, 117, 0.582);
+  background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,11 +37,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .footer a {
   text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
 }
 .logo-footer {
   width: 50px;
