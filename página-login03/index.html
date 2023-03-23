@@ -5,27 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
+    <div class="container">
       <header class="header">
         <img
           src="imagens/statistics-graph-svgrepo-com.svg"
           alt="logo-header"
           class="logo-header"
         />
-        <h1>Estatística Básica</h1>
+        <h1 class="title">Estatística Básica</h1>
+        <div class="button">
+          <button class="nav">Login</button>
+          <button class="nav">Cadastro</button>
+        </div>
       </header>
       <main>
         <form>
           <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" required />
+          <input type="text" name="nome" id="nome" required /> <br />
           <label for="senha">Senha:</label>
-          <input type="password" name="senha" id="senha" />
+          <input type="password" name="senha" id="senha" /> <br />
           <input type="submit" value="Enviar" />
         </form>
       </main>
-      <footer></footer>
     </div>
+    <footer>
+      <img
+        src="imagens/statistics-graph-svgrepo-com.svg"
+        alt="logo-footer"
+        class="logo-footer"
+      />
+      <a href="#"><< Próxima página >></a>
+    </footer>
   </body>
 </html>
