@@ -10,14 +10,14 @@
   display: flex;
   flex-direction: column;
   background: linear-gradient(to bottom, gray, black);
-  min-height: 92vh;
+  min-height: 100vh;
 }
 
 .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   font-weight: bolder;
-  font-size: 2.3em;
+  font-size: 2.1em;
 }
 .header {
   display: flex;
@@ -51,25 +51,36 @@
   background-color: white;
   transition: 0.3s;
 }
-
-.form {
+.form{
+  display: grid;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60vw;
-  min-height: 40vh;
-  padding: 40px;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.308);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.692);
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 250px;
+  padding: 15px;
+  width: 390px;
+  transform: translate(50%,50%);
+  position: relative;
+  
 }
+label{
+  color: white;
+}
+input{
+  border-radius: 7px;
+  padding: 4px;
+  margin: 5px;
+}
+
 
 .logo-header {
   width: 80px;
 }
 
+/*
 .footer {
   height: 8vh;
   justify-content: center;
