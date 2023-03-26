@@ -14,14 +14,19 @@ html {
   line-height: 1.5em;
 }
 
-.card-header {
+.header {
   min-height: 20vh;
   background-color: blueviolet;
-  flex-wrap: wrap;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 13px;
-  justify-content: space-between;
+}
+
+.title-header {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 39px;
+  color: white;
 }
 
 .nav {
