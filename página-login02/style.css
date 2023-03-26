@@ -1,31 +1,35 @@
 @charset "UTF-8";
-
-*body {
+html {
+  min-height: 100vh;
+}
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  text-indent: 35px;
+  padding: 0px 9px;
+  line-height: 1.5em;
 }
 
-.header {
+.card-header {
   min-height: 20vh;
-  /*color: #ff0044;*/
-  color: white;
-  background: white;
-  display: flex;
+  background-color: blueviolet;
+  flex-wrap: wrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
   justify-content: space-between;
-  align-items: center;
 }
+
 .nav {
   display: flex;
+  flex-wrap: wrap;
 }
 .logo-estat {
-  width: 70px;
+  width: 60px;
 }
 .main-content {
   text-align: justify;
@@ -33,10 +37,11 @@
 
 footer {
   height: 10vh;
-  background: black;
+  background: rgba(255, 68, 0, 0.829);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .footer a {
@@ -47,7 +52,4 @@ footer {
   border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
-}
-.logo-footer {
-  width: 50px;
 }
