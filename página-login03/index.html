@@ -8,28 +8,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <img
-          src="imagens/statistics-graph-chart-pie-svgrepo-com.svg"
-          alt="logo-header"
-          class="logo-header"
-        />
-        <h1 class="title">Estatística Básica</h1>
-        <div class="button">
-          <button class="nav">Login</button>
-          <button class="nav">Cadastro</button>
+    <div id="login">
+      <form class="card">
+        <div class="card-header">
+          <h2>Login</h2>
         </div>
-      </header>
-      <main>
-        <form class="form">
-          <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" required /> <br />
-          <label for="senha">Senha:</label>
-          <input type="password" name="senha" id="senha" required /> <br />
-          <input type="submit" value="Enviar" />
-        </form>
-      </main>
+        <div class="card-content">
+          <div class="card-content-area">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" id="usuario" autocomplete="off" />
+          </div>
+          <div class="card-content-area">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div class="card-footer">
+          <input type="submit" value="login" class="submit" />
+          <a href="#" class="recuperar-senha">Esqueceu a senha?</a>
+        </div>
+      </form>
     </div>
   </body>
 </html>
